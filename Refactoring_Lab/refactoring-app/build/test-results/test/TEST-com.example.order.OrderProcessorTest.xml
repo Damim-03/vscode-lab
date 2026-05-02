@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.order.OrderProcessorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-05-02T22:39:33.437Z" hostname="DESKTOP-V73TSRH" time="0.024">
+  <properties/>
+  <testcase name="testSummaryContainsAllItemNames()" classname="com.example.order.OrderProcessorTest" time="0.005"/>
+  <testcase name="testSummaryShowsDiscountedTotalForMember()" classname="com.example.order.OrderProcessorTest" time="0.001"/>
+  <testcase name="testSummaryShowsTotalForNonMember()" classname="com.example.order.OrderProcessorTest" time="0.002"/>
+  <testcase name="testTotalForNonMember()" classname="com.example.order.OrderProcessorTest" time="0.0"/>
+  <testcase name="testTotalForSingleItem()" classname="com.example.order.OrderProcessorTest" time="0.001"/>
+  <testcase name="testSummaryContainsCustomerName()" classname="com.example.order.OrderProcessorTest" time="0.001"/>
+  <testcase name="testSummaryStartsWithHeader()" classname="com.example.order.OrderProcessorTest" time="0.0"/>
+  <testcase name="testPrintOrderSummaryRunsWithoutError()" classname="com.example.order.OrderProcessorTest" time="0.004"/>
+  <testcase name="testTotalForEmptyOrderIsZero()" classname="com.example.order.OrderProcessorTest" time="0.0"/>
+  <testcase name="testTotalForMemberAppliesDiscount()" classname="com.example.order.OrderProcessorTest" time="0.001"/>
+  <system-out><![CDATA[Order Summary:
+Customer: Alice
+Items:
+  - Apple: 3 x $1.0 = $3.0
+  - Bread: 2 x $2.5 = $5.0
+Total Price: $8.00
+Order Summary:
+Customer: Bob
+Items:
+  - Apple: 3 x $1.0 = $3.0
+  - Bread: 2 x $2.5 = $5.0
+Total Price: $7.20
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
