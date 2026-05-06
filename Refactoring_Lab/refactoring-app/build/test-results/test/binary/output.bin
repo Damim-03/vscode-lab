@@ -1,0 +1,13 @@
+Result: 42.0
+	Order Summary:
+	Customer: Alice
+	Items:
+	  - Apple: 3 x $1.0 = $3.0
+	  - Bread: 2 x $2.5 = $5.0
+	Total Price: $8.00
+	Order Summary:
+	Customer: Bob
+	Items:
+	  - Apple: 3 x $1.0 = $3.0
+	  - Bread: 2 x $2.5 = $5.0
+	Total Price: $7.20
